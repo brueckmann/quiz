@@ -1,0 +1,13 @@
+---
+title: "Quiz"
+---
+
+
+# Invitation to test your knowledge
+
+<div id="quiz"></div>
+<button id="submit" class="quiz-button">See results</button>
+<button id="restart" class="quiz-button">Start new</button>
+<div id="results"></div>
+
+

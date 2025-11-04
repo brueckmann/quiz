@@ -1,0 +1,163 @@
+/* Text */
+p {
+  text-align: justify;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #094030;
+  padding: 0px;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+  width: auto;
+}
+
+/* ClimeApp-Button */
+.climeapp-button {
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #094030;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* Button */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 10px;
+  padding: 7px;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5em;
+}
+
+.button {
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 5px;
+  text-decoration: none;
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.button-toggle {
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.active-button {
+  background-color: #094030;
+  color: white;
+}
+
+/* Responsive Images */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Quiz */
+.question { font-weight: bold; }
+
+:root { --marker-col: 2.2rem; }
+
+.question-block { margin: 0 0 0.8em 0; }
+
+.question-line {
+  display: grid;
+  grid-template-columns: var(--marker-col) 1fr;
+  column-gap: 0.5rem;
+  align-items: start;
+  margin-bottom: 0.25em;
+}
+
+.q-number {
+  width: var(--marker-col);
+  font-weight: 700;
+  text-align: center;
+}
+
+.q-text { font-weight: 700; }
+
+.answers { margin: 0 0 0 0; }
+
+.answers .answer {
+  display: grid;
+  grid-template-columns: var(--marker-col) 1fr;
+  column-gap: 0.5rem;
+  align-items: start;
+  margin: 0 0;
+  cursor: pointer;
+}
+
+.answers .answer input[type="radio"] {
+  justify-self: center;
+  margin: 0.15em 0 0 0;
+  transform: translateY(0.30em);
+}
+
+.answers .is-correct { color: #0d7859; font-weight: bold; }
+.answers .is-wrong   { color: #bd2916; font-weight: bold; }
+
+.quiz-button{
+  display: inline-block;
+  border-radius: 7.5px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #094030;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+#results:empty { background: none; padding: 0; }
+
+#results{
+  margin-top: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #c5e6dc;
+  display: none;
+}
+
+#confetti-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  z-index: 9999;   
+}
+
+/* Karte */
+/* Home-Button */
+.leaflet-control.home-btn {
+  background: white;
+  color: black;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}

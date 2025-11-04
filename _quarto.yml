@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/**
+
+
+website:
+  page-footer:
+    left: "G. Brückmann, 2025."
+    right: |
+      This page is built with [Quarto](https://quarto.org/)
+      <a href="https://github.com/brueckmann/quiz" target="_blank">
+      <br>
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+  back-to-top-navigation: true   
+
+    
+
+format:
+  html:
+    css: styles.css
+    toc: true
+    toc-location: right
+    include-after-body:
+      - assets/script.html
+
