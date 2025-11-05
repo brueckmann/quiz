@@ -14,10 +14,10 @@ var myQuestions = [
     correctAnswer: 'a'
   },
           {
-    question: "According to Gazmararian et al. (2023) and Bosetti et al. (2025) what are the main reasons behind the inability for implementing decarbonisation policies?",
+    question: "According to Gazmararian et al. (2025) and Bosetti et al. (2025) what are the main reasons behind the inability for implementing decarbonisation policies?",
     answers: {
-      a: 'Gazmararian et al. concentrate on the role of technological underdevelopment, while Bosetti et. al. focus on the role of insufficient scientific consensus which prevents the implementation of these policies.',
-      b: 'Gazmararian et al. focus on the argument that limited public and political support due to perceived costs, low visibility of benefits and electoral disincentives cause interruption in terms of implementation while Bosetti et al. focus on the green backlash encouraged by the economic inequalities and the rise of right wing population.'
+      a: 'Gazmararian et al. (2025) concentrate on the role of technological underdevelopment, while Bosetti et. al. focus on the role of insufficient scientific consensus which prevents the implementation of these policies.',
+      b: 'Gazmararian et al. (2025) focus on the argument that limited public and political support due to perceived costs, low visibility of benefits and electoral disincentives cause interruption in terms of implementation while Bosetti et al. focus on the green backlash encouraged by the economic inequalities and the rise of right wing population.'
     },
     correctAnswer: 'b'
   },
