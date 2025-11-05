@@ -1,27 +1,13 @@
 ---
-title: "An invitation to test your knowledge"
-
-bibliography: references.yaml
+title: "Quiz"
 ---
 
-## Quiz 
-Based on the mandatory reading [@gazmararian2025; @bosetti2025]
 
-::: {#quiz}
-:::
+# Test your knowledge
 
-<button id="submit" class="quiz-button">
+<div id="quiz"></div>
+<button id="submit" class="quiz-button">See results</button>
+<button id="restart" class="quiz-button">Start new</button>
+<div id="results"></div>
 
-See results
-
-</button>
-
-<button id="restart" class="quiz-button">
-
-Start new
-
-</button>
-
-::: {#results}
-:::
 

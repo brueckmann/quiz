@@ -181,7 +181,7 @@ function showResults(questions, quizContainer, resultsContainer){
   }
 
   resultsContainer.innerHTML =
-    'You answered ' + numCorrect + ' (out of ' + questions.length + ' questions) correctly.';
+    'You answered' + numCorrect + ' out of ' + questions.length + ' questions correctly.';
   resultsContainer.style.display = "block";
 
   // 🎉 Effekt bei voller Punktzahl
