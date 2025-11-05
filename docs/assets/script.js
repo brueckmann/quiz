@@ -41,7 +41,7 @@ var myQuestions = [
     correctAnswer: 'a'
   },
     {
-    question: "According to Besetti et al. (2025), what is a main economic driver of the backlash?",
+    question: "According to Bosetti et al. (2025), what is a main economic driver of the backlash?",
     answers: {
       a: 'Risign global prices.',
       b: 'Unevenly distributed costs of climate policies perceived losers',
@@ -181,7 +181,7 @@ function showResults(questions, quizContainer, resultsContainer){
   }
 
   resultsContainer.innerHTML =
-    'You have got ' + numCorrect + ' out of ' + questions.length + ' questions answered correctly.';
+    'You answered ' + numCorrect + ' (out of ' + questions.length + ' questions) correctly.';
   resultsContainer.style.display = "block";
 
   // 🎉 Effekt bei voller Punktzahl
