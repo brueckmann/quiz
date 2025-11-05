@@ -1,9 +1,9 @@
 ---
-title: "Quiz"
+title: "An invitation to test your knowledge"
 ---
 
 
-# Invitation to test your knowledge
+## Quiz
 
 <div id="quiz"></div>
 <button id="submit" class="quiz-button">See results</button>
