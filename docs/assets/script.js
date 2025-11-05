@@ -4,34 +4,117 @@
 
 // Fragen und Antworten
 var myQuestions = [
-     {
-    question: "This is a question with 4 answer options",
+            {
+    question: "Which factors are crucial for people to support climate policies?",
     answers: {
-      a: 'Answer wrong',
-      b: 'Answer wrong',
-      c: 'Answer wrong',
-      d: 'Answer correct'
+      a: 'Costs and benefits for individuals.',
+      b: 'The weather',
+      c: 'Their gender.'
     },
-    correctAnswer: 'd'
+    correctAnswer: 'a'
+  },
+          {
+    question: "According to Gazmararian et al. (2023) and Bosetti et al. (2025) what are the main reasons behind the inability for implementing decarbonisation policies?",
+    answers: {
+      a: 'Gazmararian et al. concentrate on the role of technological underdevelopment, while Bosetti et. al. focus on the role of insufficient scientific consensus which prevents the implementation of these policies.',
+      b: 'Gazmararian et al. focus on the argument that limited public and political support due to perceived costs, low visibility of benefits and electoral disincentives cause interruption in terms of implementation while Bosetti et al. focus on the green backlash encouraged by the economic inequalities and the rise of right wing population.'
+    },
+    correctAnswer: 'b'
+  },
+            {
+    question: "According to Bosetti et al. (2025) what is essential in designing climate policies to avoid backlash?",
+    answers: {
+      a: 'Adopt compensatory mechanisms.',
+      b: 'Embed participatory processes.',
+      c: 'Prioritize economic benefits.'
+    },
+    correctAnswer: 'b'
+  },
+  {
+    question: "Both paper talk directly or indirectly about the importance of the inclusion of citizens (through direct inclusion or public opinion) when it comes to green energy transistion. Which statement is true?",
+    answers: {
+      a: 'Both paper state the inclusion of citizien is important.',
+      b: 'Neither paper state the inclusion of citizien is important.',
+      c: 'Bosetti et al. (2025) states that the inclusion of citizien is important.', 
+      d: 'Gazmararian et al. (2025) states that the inclusion of citizien is important.'
+    },
+    correctAnswer: 'a'
   },
     {
-    question: "This is a question with 3 answer options",
+    question: "According to Besetti et al. (2025), what is a main economic driver of the backlash?",
     answers: {
-      a: 'A wrong answer',
-      b: 'Another wrong answer',
-      c: 'And the correct answer'
+      a: 'Risign global prices.',
+      b: 'Unevenly distributed costs of climate policies perceived losers',
+      c: 'Rising unemployment in green industries.'
+    },
+    correctAnswer: 'b'
+  },
+      {
+    question: "What captures best the distinction between policy responsiveness and policy congruence?",
+    answers: {
+      a: 'Responsiveness = policy design, congruence = policy outcomes.',
+      b: 'Responsiveness = policies follow shifts in opinion, congruence = policies match majority preferences.',
+      c: 'Responsiveness concerns elites, congruence concerns the public.',
+      d: 'Responsiveness = policy outcomes, congruence = policy design.'
+    },
+    correctAnswer: 'b'
+  },
+      {
+    question: "What is nature conservation according to Bosetti et al. (2025)?",
+    answers: {
+      a: 'Protecting the environment from climate change.',
+      b: 'Protecting renewable energy like wind.',
+      c: 'Keeping nature beautiful.',
+      d: 'Conserving Nature journal articles.'
     },
     correctAnswer: 'c'
   },
-  {
-    question: "This is a question with 4 answer options",
+      {
+    question: "According to Gazmararian et al. (2025), how is public opinion influenced with regard to the expansion of clean energy technologies and infrastructure?",
     answers: {
-      a: 'Correct option',
-      b: 'A wrong option',
-      c: 'Another wrong option', 
-      d: 'Guess what'
+      a: 'Based on technological efficiency and government subsidies.',
+      b: 'Public acceptance plays a role.',
+      c: 'Citizens have no influence.'
     },
-    correctAnswer: 'a'
+    correctAnswer: 'b'
+  },
+      {
+    question: "How do right-wing populist parties often respond when people criticize or resist green policies?",
+    answers: {
+      a: 'They support stricter environmental rules.',
+      b: 'They stay neutral on climate issues.',
+      c: 'They use the criticism to gain political support.',
+      d: 'They ignore the public’s opinions.'
+    },
+    correctAnswer: 'c'
+  },
+        {
+    question: "  What aspect doesn’t fit the rhetoric of the populist right?",
+    answers: {
+      a: 'Anti-elite-narratives.',
+      b: 'Economic concerns.',
+      c: 'Doubting the effectiveness of climate policies.'
+    },
+    correctAnswer: 'c'  
+},
+    {
+    question: "According to Besetti et al. (2025), what is a main economic driver of the backlash?",
+    answers: {
+      a: 'Risign global prices.',
+      b: 'Unevenly distributed costs of climate policies perceived losers',
+      c: 'Rising unemployment in green industries.'
+    },
+    correctAnswer: 'b'
+  },
+      {
+    question: "What is the key driver of green backlash?",
+    answers: {
+      a: 'Expansion of EV.',
+      b: 'Transition costs among specifc social groups.',
+      c: 'Increased international cooperation.',
+      d: 'Declining fossil-fuels prices.'
+    },
+    correctAnswer: 'b'
   }
 ];
 
