@@ -43,7 +43,7 @@ var myQuestions = [
     {
     question: "According to Bosetti et al. (2025), what is a main economic driver of the backlash?",
     answers: {
-      a: 'Risign global prices.',
+      a: 'Rising global prices.',
       b: 'Unevenly distributed costs of climate policies perceived losers',
       c: 'Rising unemployment in green industries.'
     },
