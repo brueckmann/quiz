@@ -5,7 +5,7 @@
 // Fragen und Antworten
 var myQuestions = [
             {
-    question: "Which factors are crucial for people to support climate policies?",
+question: "Which factors are crucial for people to support climate policies?",
     answers: {
       a: 'Costs and benefits for individuals.',
       b: 'The weather',
@@ -14,15 +14,15 @@ var myQuestions = [
     correctAnswer: 'a'
   },
           {
-    question: "According to Gazmararian et al. (2025) and Bosetti et al. (2025) what are the main reasons behind the inability for implementing decarbonisation policies?",
+    question: "According to Gazmararian et al. (2025) and Bosetti et al. (2025), what are the main reasons behind the inability for implementing decarbonisation policies?",
     answers: {
       a: 'Gazmararian et al. (2025) concentrate on the role of technological underdevelopment, while Bosetti et. al. focus on the role of insufficient scientific consensus which prevents the implementation of these policies.',
-      b: 'Gazmararian et al. (2025) focus on the argument that limited public and political support due to perceived costs, low visibility of benefits and electoral disincentives cause interruption in terms of implementation while Bosetti et al. focus on the green backlash encouraged by the economic inequalities and the rise of right wing population.'
+      b: 'Gazmararian et al. (2025) focus on the argument that limited public and political support due to perceived costs, low visibility of benefits and electoral disincentives cause interruption in terms of implementation, while Bosetti et al.(2025) focus on the green backlash encouraged by the economic inequalities and the rise of the right-wing population.'
     },
     correctAnswer: 'b'
   },
             {
-    question: "According to Bosetti et al. (2025) what is essential in designing climate policies to avoid backlash?",
+    question: "According to Bosetti et al. (2025), what is essential in designing climate policies to avoid backlash?",
     answers: {
       a: 'Adopt compensatory mechanisms.',
       b: 'Embed participatory processes.',
@@ -31,12 +31,12 @@ var myQuestions = [
     correctAnswer: 'b'
   },
   {
-    question: "Both paper talk directly or indirectly about the importance of the inclusion of citizens (through direct inclusion or public opinion) when it comes to green energy transistion. Which statement is true?",
+    question: "Both papers talk directly or indirectly about the importance of the inclusion of citizens (through direct inclusion or public opinion) when it comes to green energy transition. Which statement is true?",
     answers: {
-      a: 'Both paper state the inclusion of citizien is important.',
-      b: 'Neither paper state the inclusion of citizien is important.',
-      c: 'Bosetti et al. (2025) states that the inclusion of citizien is important.', 
-      d: 'Gazmararian et al. (2025) states that the inclusion of citizien is important.'
+      a: 'Both papers state the inclusion of citizens is important.',
+      b: 'Neither paper states the inclusion of citizens is important.',
+      c: 'Bosetti et al. (2025) state that the inclusion of citizens is important.', 
+      d: 'Gazmararian et al. (2025) state that the inclusion of citizens is important.'
     },
     correctAnswer: 'a'
   },
@@ -49,7 +49,7 @@ var myQuestions = [
     },
     correctAnswer: 'b'
   },
-      {
+  {
     question: "What captures best the distinction between policy responsiveness and policy congruence?",
     answers: {
       a: 'Responsiveness = policy design, congruence = policy outcomes.',
@@ -97,20 +97,11 @@ var myQuestions = [
     },
     correctAnswer: 'c'  
 },
-    {
-    question: "According to Besetti et al. (2025), what is a main economic driver of the backlash?",
-    answers: {
-      a: 'Risign global prices.',
-      b: 'Unevenly distributed costs of climate policies perceived losers',
-      c: 'Rising unemployment in green industries.'
-    },
-    correctAnswer: 'b'
-  },
       {
     question: "What is the key driver of green backlash?",
     answers: {
-      a: 'Expansion of EV.',
-      b: 'Transition costs among specifc social groups.',
+      a: 'Expansion of EVs.',
+      b: 'Transition costs among specific social groups.',
       c: 'Increased international cooperation.',
       d: 'Declining fossil-fuels prices.'
     },
